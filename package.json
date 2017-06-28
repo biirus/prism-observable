@@ -12,10 +12,17 @@
     "babel-preset-stage-0": "^6.22.0"
   },
   "scripts": {
-    "build": "node_modules/.bin/babel ./src --out-dir ./dist --ignore node_modules,example,dist"
+    "build": "babel ./src --out-dir ./dist --ignore node_modules,example,dist"
   },
-  "author": {
-    "name": "Ivan Burnaev",
-    "email": "ivan.biirus@gmail.com"
-  }  
+  "author": "Ivan Burnaev <ivan.biirus@gmail.com>",
+  "description": "Утилита для использования redux-observable вместе с prism. Оборачивает epics, позволяя им работать с префикснутыми actions, а также с частью store, относящейся к компоненту.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/biirus/prism-observable.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/biirus/prism-observable/issues"
+  },
+  "homepage": "https://github.com/biirus/prism-observable#readme"
 }
