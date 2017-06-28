@@ -1,0 +1,13 @@
+# IDE
+.idea
+.vscode
+
+tsconfig.json
+jsconfig.json
+.npmrc
+
+example/
+node_scripts/
+*.ts
+*.tsx
+!*.d.ts
